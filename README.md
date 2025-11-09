@@ -1,9 +1,9 @@
-# Snapp.project
+# Internet taxi project
 
 
 ### طراحی فرانت سایت اسنپ &#128661;:
 <br><br>
-![snapp](https://github.com/mikaela4518/Snapp.project/assets/143528080/c8699147-3fc9-42fa-b09a-2b138ceb22e1)
+![preview-image](https://github.com/user-attachments/assets/e8fad93b-89a8-475b-b766-4b75618d8cbf)
 
 <br>
 
