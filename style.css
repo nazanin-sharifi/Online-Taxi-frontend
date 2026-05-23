@@ -212,92 +212,85 @@ header ul li.logo a img {
 }
 
 /*-- main section 4 --*/
-.main-section-4 {
+.main-adds-slider {
     width: 100%;
     height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 30px 0;
 }
 
-.slyder {
-    width: 80%;
-    height: 320px;
-    background-color: #21AA58;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
+.main-adds-slider .slider {
+    display: block;
+    position: relative;
+    width: 73%;
+    height: 380px;
+    margin: 10px;
+    overflow: hidden;
 }
 
-.slyder ::-webkit-scrollbar {
-    width: 1px;
-    background: transparent;
-    opacity: 0.0;
-}
-
-.slyder>a {
+.main-adds-slider .slider .slide {
+    position: absolute;
+    top: 0;
+    left: 100%;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    scroll-snap-align: start;
+    transition: 1s;
+    opacity: 0;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.slyder>a:nth-of-type(1) {
-    background-image: url(image/Section4.img/Food.jpg);
-}
-
-.slyder>a:nth-of-type(2) {
-    background-image: url(image/Section4.img/Market.jpg);
-}
-
-.slyder>a:nth-of-type(3) {
-    background-image: url(image/Section4.img/Driver.jpg);
-}
-
-.slyder>a:nth-of-type(4) {
-    background-image: url(image/Section4.img/Club.jpg);
-}
-
-/*-- main section 5 --*/
-.main-about-snapp {
-    margin-bottom: 35px;
-}
-
-.main-about-snapp .discription-part {
-    height: 450px;
+.slider .slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
     display: flex;
-    margin-bottom: -60px;
+    justify-content: center;
 }
 
-.discription-part .m-a-s-picture {
-    background-image: url(image/Section5.img/S6-back.jpg);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: cover;
-    width: 48%;
+.main-adds-slider .slider .slide a img {
+    height: 100%;
 }
 
-.discription-part .m-a-s-dis {
-    color: rgb(82, 82, 82);
-    font-size: 13px;
-    line-height: 23px;
-    text-align: justify;
-    width: 51%;
-    padding: 20px 60px 20px 180px;
+.main-adds-slider .slider .slide.s-active {
+    opacity: 1;
+    left: 0;
 }
 
-.discription-part .m-a-s-dis h2 {
-    line-height: 60px;
-    color: #000;
-    margin-bottom: 5px;
+.main-adds-slider .slider .container-dots {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-adds-slider .slider .container-dots #dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 8px;
+    border-radius: 50px;
+    background-color: #cecece49;
+    cursor: pointer;
+}
+
+.main-adds-slider .slider .container-dots #dots span {
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+.main-adds-slider .slider .container-dots #dots .d-active {
+    background-color: #fff;
 }
 
 /* section5-Feature-part */
