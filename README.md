@@ -1,39 +1,44 @@
-# Internet taxi project
-
+# Snapp Homepage Clone
+A precise and pixel-perfect clone of the Snapp landing page, developed as a collaborative project to showcase attention to UI details, and structured codebase.
 
 ### طراحی فرانت سایت اسنپ &#128661;:
+
+یک شبیه‌سازی دقیق و مدرن از صفحه اصلی وب‌سایت اسنپ (Snapp). این پروژه با تمرکز بر جزئیات رابط کاربری، کدنویسی تمیز (Clean Code) و ساختارمند به عنوان یک کار تیمی توسعه یافته است.
+
 <br><br>
 ![preview-image](https://github.com/user-attachments/assets/e8fad93b-89a8-475b-b766-4b75618d8cbf)
 
-<br>
-
-#### This page was created for sample work. <br>
-##### Introducing the Snap site:
-<p>Snap site is an online taxi and courier booking system that offers many different services to its users. <br>
-This site is very successful and well-known among people, so I saw the design of the front-end part of this site as a challenge and an attractive example of work to be done. </p>
-
-###### Positive points:
-- Attention to detail in project output
-- Made with html-css language
-- commenting
-- Attention to clean code
+<br><br>
 
 
-#### این صفحه جهت نمونه کار ایجاد شده است.<br>
-##### معرفی سایت اسنپ:
-<p> سایت اسنپ یک سیستم رزرو تاکسی و پیک انلاین است که خدمات مختلف بسیاری رو به کاربران خود ارائه میدهد. <br>
-این سایت بسیار موفق و در بین مردم شناخته شده است ، از این رو طراحی قسمت فرانت اند این سایت رو چالش و نمونه کار جذابی برای انجام دیدم. </p>
 
-###### نکات مـثبت:
-- دقت به جزئیات در خروجی پروژه 
-- ساخته شده با زبان html-css
-- کامنت گذاری
-- دقت به تمیز بودن کد
+## 🚀 ویژگی‌ها و نکات مثبت | Features & Highlights
 
-
-  این پروژه تیمی انجام شده است و تشکر میکنم از هم تیمی های خوبم برای اجرای این پروژه &#128591;
-    #### اعضای تیم
-  - [خانم مائده خسروی نیا](https://github.com/Maedeh82khosravii)
-  - [اقای مبین محزون زاده](https://github.com/mobiiiin)
-  - [اقای علی علوی](https://github.com/alialavi573)
+* دقت در جزئیات (Attention to Detail): پیاده‌سازی مو به موی بخش‌های مختلف، دکمه‌ها، تصاویر و تایپوگرافی اسنپ.
+* کدنویسی تمیز و بهینه (Clean Code): رعایت اصول معنایی در HTML، نام‌گذاری استاندارد کلاس‌ها و ساختار مرتب CSS.
+* کامنت‌گذاری (Commenting): مستندسازی و کامنت‌گذاری بخش‌های مختلف کد جهت خوانایی بالا و توسعه‌پذیری آسان‌تر.
   
+<br><br>
+
+## 🛠️ تکنولوژی‌های استفاده شده | Tech Stack
+
+* HTML5: برای ساختاردهی استاندارد و معنایی بخش‌های وب‌سایت.
+* CSS3: برای استایل‌دهی، مدیریت چیدمان‌های پیچیده (Flexbox/Grid) و المان‌های تعاملی.
+* Agile and Scrum: در پیشبرد پروژه بصورت تیمی
+* JavaScript: برای ساخت اسلایدر در صفحه اصلی
+
+
+<br><br>
+## 👥 اعضای تیم | Team Members
+
+این پروژه به صورت تیمی و با همکاری افراد زیر با موفقیت پیاده‌سازی شده است:
+
+* خانم مائده خسروی نیا
+* آقای مبین محزون زاده
+* آقای علی علوی
+<br><br><br><br>
+
+---
+
+این پروژه صرفاً جنبه آموزشی و تمرینی دارد و به عنوان یک نمونه کار فرانت‌اند توسعه یافته است.
+This project is for educational and portfolio purposes only.
